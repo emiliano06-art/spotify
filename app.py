@@ -52,8 +52,6 @@ st.sidebar.title("Spotify")
 menu = st.sidebar.radio("Menu", ["Inicio", "Buscar", "Tus favoritas"])
 
 if menu == "Inicio":
-    st.title("Buenas tardes")
-    st.subheader("Hecho para ti")
     cols = st.columns(len(canciones))
     for i, c in enumerate(canciones):
         with cols[i]:
