@@ -19,18 +19,18 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 canciones = [
-    {"titulo": "Solo guapo y cachondo", "artista": "Yeyo", "genero": "Urbano",
-     "archivo": "solo_guapo_y_cachondo.mp3", "portada": "solo_guapo_y_cachondo.jpg",
-     "spotify": "2TGmtUeiETXlrvUS6AsUNu"},
+    {"titulo": "Luther", "artista": "Kendrick Lamar y SZA", "genero": "Hip hop",
+     "archivo": "luther.mp3", "portada": "luther.jpg",
+     "spotify": "45J4avUb9Ni0bnETYaYFVJ"},
     {"titulo": "Hablan mal de mi", "artista": "Yandel", "genero": "Reggaeton",
      "archivo": "hablan_mal_de_mi.mp3", "portada": "hablan_mal_de_mi.jpg",
      "spotify": "1b4pDHikv9vOImTp5DgESJ"},
     {"titulo": "Dont Be Dumb", "artista": "A$AP Rocky", "genero": "Hip hop",
      "archivo": "dont_be_dumb.mp3", "portada": "dont_be_dumb.jpg",
      "spotify": "2JfyjfqbQrTXMzH8n0fOht"},
-    {"titulo": "Luther", "artista": "Kendrick Lamar y SZA", "genero": "Hip hop",
-     "archivo": "luther.mp3", "portada": "luther.jpg",
-     "spotify": "45J4avUb9Ni0bnETYaYFVJ"},
+    {"titulo": "Solo guapo y cachondo", "artista": "Yeyo", "genero": "Urbano",
+     "archivo": "solo_guapo_y_cachondo.mp3", "portada": "solo_guapo_y_cachondo.jpg",
+     "spotify": "2TGmtUeiETXlrvUS6AsUNu"}
 ]
 
 def ruta(c):
@@ -100,3 +100,5 @@ if st.session_state.actual is not None:
         st.warning("No se encontro el archivo: " + ruta(c))
 else:
     st.markdown("### Selecciona una cancion para reproducir")
+
+
