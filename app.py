@@ -108,3 +108,5 @@ else:
 # sidebar: menu lateral con Inicio, Buscar y Tus favoritas
 
 # diseno: tema oscuro con el verde de Spotify
+
+# busqueda: filtra por titulo y artista
