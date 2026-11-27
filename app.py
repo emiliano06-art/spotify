@@ -106,3 +106,5 @@ else:
 # estructura: app.py, carpeta portadas y requirements.txt
 
 # sidebar: menu lateral con Inicio, Buscar y Tus favoritas
+
+# diseno: tema oscuro con el verde de Spotify
