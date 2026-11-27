@@ -114,3 +114,5 @@ else:
 # opciones: botones Play y Favorita
 
 # base de datos: lista de canciones con titulo, artista, portada y codigo de Spotify
+
+# errores: si falta una portada se muestra una imagen de relleno
