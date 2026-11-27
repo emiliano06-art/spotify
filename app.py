@@ -102,3 +102,5 @@ else:
     st.markdown("### Selecciona una cancion para reproducir")
 
 
+
+# estructura: app.py, carpeta portadas y requirements.txt
