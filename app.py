@@ -110,3 +110,5 @@ else:
 # diseno: tema oscuro con el verde de Spotify
 
 # busqueda: filtra por titulo y artista
+
+# opciones: botones Play y Favorita
