@@ -112,3 +112,5 @@ else:
 # busqueda: filtra por titulo y artista
 
 # opciones: botones Play y Favorita
+
+# base de datos: lista de canciones con titulo, artista, portada y codigo de Spotify
