@@ -102,3 +102,15 @@ else:
     st.markdown("### Selecciona una cancion para reproducir")
 
 
+
+# estructura: app.py, carpeta portadas y requirements.txt
+
+# sidebar: menu lateral con Inicio, Buscar y Tus favoritas
+
+# diseno: tema oscuro con el verde de Spotify
+
+# busqueda: filtra por titulo y artista
+
+# opciones: botones Play y Favorita
+
+# base de datos: lista de canciones con titulo, artista, portada y codigo de Spotify
